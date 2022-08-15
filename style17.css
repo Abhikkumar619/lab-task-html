@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{
+    background-image:url(W4.jpg);
+}
+.container{
+    width: 80%;
+    margin: 75px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+    grid-gap: 25px;
+
+
+}
+.card{
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0.2);
+
+}
+.background{
+    min-height: 215px;
+
+
+}
+.card .img-one{
+    background-image: url(W1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.card .img-two{
+    background-image: url(W2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+.card .img-three{
+    background-image: url(w3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.content{
+    text-align: center;
+    padding: 0px 10px ;
+
+}
+
+.content h2{
+    letter-spacing: 2px;
+    color: #000;
+
+}
+
+.content p{
+    font-size: 16px;
+    color: #6a6a6a; 
+    margin-bottom: 15px ;
+
+}
+
+.content a{
+    font-size: 16px;
+    color: #ffff;
+    font-family: sans-serif;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    padding: 8px 6px;
+    background-color:#618347 ;
+    border-radius: 5px;
+
+}
+
+.content a:hover{
+    background-color: #448d;
+    transition: 0.6s ease;
+
+}
+
+
+
